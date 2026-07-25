@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "target": "ES2023",
+        "module": "ESNext",
+        "moduleResolution": "bundler",
+        "allowSyntheticDefaultImports": true,
+        "esModuleInterop": true,
+        "allowJs": true,
+        "skipLibCheck": true,
+        "jsx": "react-jsx",
+        "paths": {
+        "@/*": ["./src/*"]
+        }
+    },
+    "include": ["src", "vite.config.js"],
+    "exclude": ["node_modules", "dist"]
+}
